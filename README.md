@@ -94,7 +94,18 @@ void setup()
 .
 .
 .
+in congig.h
 
+change 
+
+
+#ifdef MARAUDER_V7
+      #define SD_CS 5
+      #define SD_SCK  18
+      #define SD_MISO 19
+      #define SD_MOSI 23
+    #endif
+    
 replace Switches.cpp and Switches.h
 add library pcf8574
 
