@@ -2339,8 +2339,8 @@
       #define GPS_RX 22
     #elif defined(MARAUDER_V7)
       #define GPS_SERIAL_INDEX 2
-      #define GPS_TX 0
-      #define GPS_RX 0
+      #define GPS_TX 17
+      #define GPS_RX 16
     #elif defined(MARAUDER_V7_1)
       #define GPS_SERIAL_INDEX 2
       #define GPS_TX 21
