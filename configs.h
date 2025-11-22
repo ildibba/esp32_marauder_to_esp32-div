@@ -153,6 +153,7 @@
     #define USE_SD
     //#define HAS_TEMP_SENSOR
     #define HAS_GPS
+    #define HAS_C5_SD
   #endif
 
   #ifdef MARAUDER_V7_1
@@ -2100,9 +2101,9 @@
 
     #ifdef MARAUDER_V7
       #define SD_CS 5
-      #define SD_SCK  18
-      #define SD_MISO 19
-      #define SD_MOSI 23
+      #define SD_SCK  18 //spi
+      #define SD_MISO 19 //spi
+      #define SD_MOSI 23 //spi
     #endif
 
     #ifdef MARAUDER_V7_1
